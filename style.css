@@ -54,7 +54,7 @@ p{
 }
 
 .btn button{
-  padding: 10px 30px;
+  padding: 10px 35px;
   border-radius: 50px;
   cursor: pointer;
   background-color: aliceblue;
@@ -63,6 +63,7 @@ p{
   box-shadow: 0.5rem 0.8rem 2rem rgba(0, 0, 0, 0.3);
   margin-left: -55%;
   font-size: 16px;
+  
 }
 
 .btn button:hover{
@@ -73,6 +74,17 @@ p{
 #no{
   margin-left: 5%;
   position: absolute;
+}
+
+@media screen and (max-width: 768px){
+  #no{
+    left: 52%;
+  }
+
+  .btn button{
+    left: 20%;
+    
+  }
 }
 
 
