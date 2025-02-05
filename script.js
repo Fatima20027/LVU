@@ -19,6 +19,15 @@ yesBtn.addEventListener('click', function() {
 
 });
 
+noBtn.addEventListener('mouseover', function() {
+    const i = Math.floor(Math.random() * 500) + 1;
+    const j = Math.floor(Math.random() * 500) + 1;
+
+    noBtn.style.left = i + `px`;
+    noBtn.style.top = j + `px`;
+    
+});
+
 function flashRainbowColors(callback) {
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
     let i = 0;
