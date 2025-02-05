@@ -22,11 +22,11 @@ yesBtn.addEventListener('click', function() {
 noBtn.addEventListener('mouseover', function() {
     const noBtnRec = noBtn.getBoundingClientRect();
 
-    // Get viewport dimensions
+    
     const maxI = window.innerWidth - noBtnRec.width;
     const maxJ = window.innerHeight - noBtnRec.height;
 
-    // Ensure the button stays within the viewport
+    
     const i = Math.min(maxI, Math.max(0, Math.random() * maxI));
     const j = Math.min(maxJ, Math.max(0, Math.random() * maxJ));
 
